@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+
+echo $(/usr/bin/xkblayout-state print '%s')

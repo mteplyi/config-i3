@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+pactl subscribe | grep --line-buffered sink | while read x; do
+  pkill -F /tmp/i3blocks.pid -RTMIN+21
+done
